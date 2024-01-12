@@ -379,6 +379,46 @@ article .icon {
   border-color: rgb(163, 163, 163);
 }
 
+#leader {
+  position: relative;
+}
+
+.leader-sub-title {
+  color: rgb(85, 85, 85);
+  font-weight: 800;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.leader-details-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.article-container {
+  display: flex;
+  text-align: left;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 3.5rem;
+  justify-content: space-around;
+}
+
+article {
+  display: inline-flexbox;
+  width: 10rem;
+  justify-content: space-around;
+  gap: 1.5rem;
+}
+
+article .icon {
+  cursor: default;
+}
+
+.leader-pic {
+  border-radius: 2rem;
+}
 /* CONTACT */
 
 #contact {
